@@ -9,12 +9,22 @@ interface EventCardProps {
 }
 
 export const EventCard = ({ event }: EventCardProps) => {
-  const formatDate = (dateString: string) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
+  const formatDateRange = (startDate: string, endDate: string) => {
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+    
+    const startFormatted = start.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric'
+    });
+    
+    const endFormatted = end.toLocaleDateString('en-US', {
       month: 'short',
       day: 'numeric',
       year: 'numeric'
     });
+    
+    return `${startFormatted} - ${endFormatted}`;
   };
 
   const isOngoing = () => {
@@ -55,13 +65,8 @@ export const EventCard = ({ event }: EventCardProps) => {
             <p className="text-xs text-muted-foreground">{event.Address}</p>
           </div>
 
-          <div className="flex items-center gap-4 text-sm">
-            <div>
-              <span className="font-medium">Start:</span> {formatDate(event.StartDate)}
-            </div>
-            <div>
-              <span className="font-medium">End:</span> {formatDate(event.EndDate)}
-            </div>
+          <div className="text-sm">
+            <span className="font-medium">Duration:</span> {formatDateRange(event.StartDate, event.EndDate)}
           </div>
 
           <div>
