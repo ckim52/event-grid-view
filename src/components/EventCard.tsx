@@ -34,9 +34,6 @@ export const EventCard = ({ event }: EventCardProps) => {
     <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
       <CardHeader>
         <div className="flex items-start justify-between gap-2 mb-2">
-          <Badge variant={isOngoing() ? "default" : isUpcoming() ? "secondary" : "outline"}>
-            {event.Type}
-          </Badge>
           {isOngoing() && (
             <Badge className="bg-green-500 text-white">Live</Badge>
           )}
@@ -74,9 +71,12 @@ export const EventCard = ({ event }: EventCardProps) => {
             </p>
           </div>
 
-          <div>
-            <Badge variant="outline" className="text-xs">
+          <div className="flex flex-col gap-2">
+            <Badge variant="outline" className="text-xs w-fit">
               {event.Series}
+            </Badge>
+            <Badge variant={isOngoing() ? "default" : isUpcoming() ? "secondary" : "outline"} className="text-xs w-fit">
+              {event.Type}
             </Badge>
           </div>
         </div>
