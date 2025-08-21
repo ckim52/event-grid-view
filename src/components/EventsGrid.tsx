@@ -8,6 +8,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Search, CalendarIcon, X } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
+import type { DateRange } from "react-day-picker";
 
 interface EventsGridProps {
   events: CollaborationEvent[];
@@ -15,8 +16,7 @@ interface EventsGridProps {
 
 export const EventsGrid = ({ events }: EventsGridProps) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [startDate, setStartDate] = useState<Date | undefined>();
-  const [endDate, setEndDate] = useState<Date | undefined>();
+  const [dateRange, setDateRange] = useState<DateRange | undefined>();
 
   // Filter events by Series and date range, then sort by StartDate
   const filteredAndSortedEvents = [...events]
@@ -29,15 +29,15 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
       const eventEnd = new Date(event.EndDate);
       
       let dateMatch = true;
-      if (startDate && endDate) {
+      if (dateRange?.from && dateRange?.to) {
         // Event must overlap with selected date range
-        dateMatch = eventStart <= endDate && eventEnd >= startDate;
-      } else if (startDate) {
+        dateMatch = eventStart <= dateRange.to && eventEnd >= dateRange.from;
+      } else if (dateRange?.from) {
         // Event must end after or on start date
-        dateMatch = eventEnd >= startDate;
-      } else if (endDate) {
+        dateMatch = eventEnd >= dateRange.from;
+      } else if (dateRange?.to) {
         // Event must start before or on end date
-        dateMatch = eventStart <= endDate;
+        dateMatch = eventStart <= dateRange.to;
       }
       
       return seriesMatch && dateMatch;
@@ -47,8 +47,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
     );
 
   const clearDateFilters = () => {
-    setStartDate(undefined);
-    setEndDate(undefined);
+    setDateRange(undefined);
   };
 
   return (
@@ -72,65 +71,46 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
             />
           </div>
 
-          {/* Date Range Filters */}
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          {/* Date Range Filter */}
+          <div className="flex items-center justify-center gap-4">
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium">Date Range:</span>
               
-              {/* Start Date Picker */}
               <Popover>
                 <PopoverTrigger asChild>
                   <Button
                     variant="outline"
                     className={cn(
-                      "w-[140px] justify-start text-left font-normal text-sm",
-                      !startDate && "text-muted-foreground"
+                      "w-[280px] justify-start text-left font-normal text-sm",
+                      !dateRange && "text-muted-foreground"
                     )}
                   >
                     <CalendarIcon className="mr-2 h-4 w-4" />
-                    {startDate ? format(startDate, "MMM d") : "Start date"}
+                    {dateRange?.from ? (
+                      dateRange.to ? (
+                        `${format(dateRange.from, "MMM d")} - ${format(dateRange.to, "MMM d, yyyy")}`
+                      ) : (
+                        format(dateRange.from, "MMM d, yyyy")
+                      )
+                    ) : (
+                      "Pick a date range"
+                    )}
                   </Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-auto p-0" align="start">
+                <PopoverContent className="w-auto p-0" align="center">
                   <Calendar
-                    mode="single"
-                    selected={startDate}
-                    onSelect={setStartDate}
+                    mode="range"
+                    selected={dateRange}
+                    onSelect={setDateRange}
+                    numberOfMonths={2}
                     initialFocus
                     className={cn("p-3 pointer-events-auto")}
                   />
                 </PopoverContent>
               </Popover>
 
-              <span className="text-muted-foreground">to</span>
-
-              {/* End Date Picker */}
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button
-                    variant="outline"
-                    className={cn(
-                      "w-[140px] justify-start text-left font-normal text-sm",
-                      !endDate && "text-muted-foreground"
-                    )}
-                  >
-                    <CalendarIcon className="mr-2 h-4 w-4" />
-                    {endDate ? format(endDate, "MMM d") : "End date"}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-auto p-0" align="start">
-                  <Calendar
-                    mode="single"
-                    selected={endDate}
-                    onSelect={setEndDate}
-                    initialFocus
-                    className={cn("p-3 pointer-events-auto")}
-                  />
-                </PopoverContent>
-              </Popover>
-
-              {/* Clear Date Filters */}
-              {(startDate || endDate) && (
+              {/* Clear Date Filter */}
+              {dateRange && (
                 <Button
                   variant="ghost"
                   size="sm"
