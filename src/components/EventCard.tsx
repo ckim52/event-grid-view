@@ -69,17 +69,7 @@ export const EventCard = ({ event }: EventCardProps) => {
             <span className="font-medium">Duration:</span> {formatDateRange(event.StartDate, event.EndDate)}
           </div>
 
-          <div>
-            <p className="font-medium text-sm mb-1">Highlights:</p>
-            <p className="text-sm text-muted-foreground line-clamp-3">
-              {event.KeyHighlights}
-            </p>
-          </div>
-
           <div className="flex flex-col gap-2">
-            <Badge variant="outline" className="text-xs w-fit">
-              {event.Series}
-            </Badge>
             <Badge variant={isOngoing() ? "default" : isUpcoming() ? "secondary" : "outline"} className="text-xs w-fit">
               {event.Type}
             </Badge>
