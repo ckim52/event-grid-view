@@ -56,6 +56,19 @@ export const EventCard = ({ event }: EventCardProps) => {
         <CardDescription className="text-sm text-muted-foreground font-medium">
           {event.JapaneseTitle}
         </CardDescription>
+        
+        {event.ThumbnailURL && (
+          <div className="mt-3">
+            <img 
+              src={event.ThumbnailURL} 
+              alt={event.EnglishTitle}
+              className="w-full h-32 object-cover rounded-md"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+          </div>
+        )}
       </CardHeader>
 
       <CardContent className="flex-1 flex flex-col justify-between">

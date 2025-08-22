@@ -7,6 +7,7 @@ export interface CollaborationEvent {
   EndDate: string;
   Address: string;
   OfficialURL: string;
-  KeyHighlights: string;
+  KeyHighlights: string | null;
   Series: string;
+  ThumbnailURL: string;
 }
