@@ -53,7 +53,7 @@ export const EventCard = ({ event }: EventCardProps) => {
           {event.EnglishTitle}
         </CardTitle>
         
-        <CardDescription className="text-sm text-muted-foreground font-medium">
+        <CardDescription className="text-sm text-muted-foreground font-medium line-clamp-1">
           {event.JapaneseTitle}
         </CardDescription>
         
@@ -75,7 +75,14 @@ export const EventCard = ({ event }: EventCardProps) => {
         <div className="space-y-3">
           <div>
             <p className="text-sm font-medium text-foreground">{event.Location}</p>
-            <p className="text-xs text-muted-foreground">{event.Address}</p>
+            <a 
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.Address)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-primary hover:underline cursor-pointer"
+            >
+              {event.Address}
+            </a>
           </div>
 
           <div className="text-sm">

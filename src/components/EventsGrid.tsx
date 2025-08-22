@@ -21,8 +21,9 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
   // Filter events by Series and date range, then sort by StartDate
   const filteredAndSortedEvents = [...events]
     .filter(event => {
-      // Series filter
-      const seriesMatch = event.Series.toLowerCase().includes(searchTerm.toLowerCase());
+      // Title filter
+      const titleMatch = event.EnglishTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                         event.JapaneseTitle.toLowerCase().includes(searchTerm.toLowerCase());
       
       // Date range filter
       const eventStart = new Date(event.StartDate);
@@ -40,7 +41,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
         dateMatch = eventStart <= dateRange.to;
       }
       
-      return seriesMatch && dateMatch;
+      return titleMatch && dateMatch;
     })
     .sort((a, b) => 
       new Date(a.StartDate).getTime() - new Date(b.StartDate).getTime()
@@ -59,12 +60,12 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
         </p>
         
         <div className="max-w-4xl mx-auto space-y-4">
-          {/* Series Search */}
+          {/* Title Search */}
           <div className="max-w-md mx-auto relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input
               type="text"
-              placeholder="Search by series (e.g., Hatsune Miku, Sanrio)..."
+              placeholder="Search by title (e.g., Tokyo Revengers, Sanrio)..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               className="pl-10"
