@@ -76,7 +76,7 @@ export const EventCard = ({ event }: EventCardProps) => {
           <div>
             <p className="text-sm font-medium text-foreground">{event.Location}</p>
             <a 
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.Address)}`}
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.Address).replace(/%20/g, '+')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs text-primary hover:underline cursor-pointer"
