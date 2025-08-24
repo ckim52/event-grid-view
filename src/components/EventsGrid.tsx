@@ -89,7 +89,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
         
         <div className="max-w-4xl mx-auto space-y-4">
           {/* Title Search */}
-          <div className="max-w-4xl mx-auto relative">
+          <div className="max-w-md mx-auto relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input
               type="text"
@@ -101,7 +101,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
           </div>
 
           {/* Filters */}
-          <div className="flex items-center justify-center gap-4 flex-wrap">
+          <div className="max-w-md mx-auto flex items-center justify-center gap-4 flex-wrap">
             <div className="flex items-center gap-2">
               <Select value={selectedLocation} onValueChange={setSelectedLocation}>
                 <SelectTrigger className="w-[160px]">
