@@ -18,7 +18,7 @@ interface EventsGridProps {
 export const EventsGrid = ({ events }: EventsGridProps) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
-  const [selectedLocation, setSelectedLocation] = useState<string>("");
+  const [selectedLocation, setSelectedLocation] = useState<string>("all");
 
   // Get unique locations for filter
   const uniqueLocations = useMemo(() => {
@@ -34,7 +34,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
                          event.JapaneseTitle.toLowerCase().includes(searchTerm.toLowerCase());
       
       // Location filter
-      const locationMatch = !selectedLocation || event.Location === selectedLocation;
+      const locationMatch = selectedLocation === "all" || event.Location === selectedLocation;
       
       // Date range filter
       const eventStart = new Date(event.StartDate);
@@ -92,7 +92,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
                   <SelectValue placeholder="All locations" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All locations</SelectItem>
+                  <SelectItem value="all">All locations</SelectItem>
                   {uniqueLocations.map((location) => (
                     <SelectItem key={location} value={location}>
                       {location}
