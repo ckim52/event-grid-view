@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { CollaborationEvent } from "@/types/events";
 import { EventCard } from "./EventCard";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Search, CalendarIcon, X } from "lucide-react";
 import { format } from "date-fns";
 import { cn } from "@/lib/utils";
@@ -17,13 +18,23 @@ interface EventsGridProps {
 export const EventsGrid = ({ events }: EventsGridProps) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [dateRange, setDateRange] = useState<DateRange | undefined>();
+  const [selectedLocation, setSelectedLocation] = useState<string>("");
 
-  // Filter events by Series and date range, then sort by StartDate
+  // Get unique locations for filter
+  const uniqueLocations = useMemo(() => {
+    const locations = [...new Set(events.map(event => event.Location))];
+    return locations.sort();
+  }, [events]);
+
+  // Filter events by title, location and date range, then sort by StartDate
   const filteredAndSortedEvents = [...events]
     .filter(event => {
       // Title filter
       const titleMatch = event.EnglishTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          event.JapaneseTitle.toLowerCase().includes(searchTerm.toLowerCase());
+      
+      // Location filter
+      const locationMatch = !selectedLocation || event.Location === selectedLocation;
       
       // Date range filter
       const eventStart = new Date(event.StartDate);
@@ -41,7 +52,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
         dateMatch = eventStart <= dateRange.to;
       }
       
-      return titleMatch && dateMatch;
+      return titleMatch && locationMatch && dateMatch;
     })
     .sort((a, b) => 
       new Date(a.StartDate).getTime() - new Date(b.StartDate).getTime()
@@ -72,8 +83,25 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
             />
           </div>
 
-          {/* Date Range Filter */}
-          <div className="flex items-center justify-center gap-4">
+          {/* Filters */}
+          <div className="flex items-center justify-center gap-4 flex-wrap">
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-medium">Location:</span>
+              <Select value={selectedLocation} onValueChange={setSelectedLocation}>
+                <SelectTrigger className="w-[160px]">
+                  <SelectValue placeholder="All locations" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="">All locations</SelectItem>
+                  {uniqueLocations.map((location) => (
+                    <SelectItem key={location} value={location}>
+                      {location}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+
             <div className="flex items-center gap-2">
               <span className="text-sm font-medium">Date Range:</span>
               

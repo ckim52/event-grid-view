@@ -48,16 +48,24 @@ export const EventCard = ({ event }: EventCardProps) => {
     <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
       <CardHeader className="pb-4">
         <div className="flex items-start justify-between gap-2 mb-3">
-          {isOngoing() && (
-            <Badge className="bg-green-500 text-white shrink-0">Live</Badge>
-          )}
+          <div className="flex gap-2 flex-wrap">
+            {isOngoing() && (
+              <Badge className="bg-green-500 text-white shrink-0">Live</Badge>
+            )}
+            {event.Series && (
+              <Badge variant="secondary" className="shrink-0">{event.Series}</Badge>
+            )}
+          </div>
         </div>
         
         <CardTitle className="line-clamp-2 text-lg leading-tight mb-2">
           {event.EnglishTitle}
         </CardTitle>
         
-        <CardDescription className="text-sm text-muted-foreground font-medium line-clamp-1 mb-3">
+        <CardDescription 
+          className="text-sm text-muted-foreground font-medium line-clamp-1 mb-3"
+          title={event.JapaneseTitle}
+        >
           {event.JapaneseTitle}
         </CardDescription>
         
@@ -80,10 +88,11 @@ export const EventCard = ({ event }: EventCardProps) => {
           <div className="space-y-2">
             <p className="text-sm font-semibold text-foreground">{event.Location}</p>
             <a 
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.Address).replace(/%20/g, '+')}`}
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.Address)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-primary hover:underline cursor-pointer line-clamp-2 block"
+              className="text-xs text-primary hover:underline cursor-pointer line-clamp-1 block truncate"
+              title={event.Address}
             >
               {event.Address}
             </a>
