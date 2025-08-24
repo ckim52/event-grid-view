@@ -26,7 +26,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
     return locations.sort();
   }, [events]);
 
-  // Filter events by title, location and date range, then sort by StartDate
+  // Filter events by title, location and date range, then sort by StartDate with Live events prioritized
   const filteredAndSortedEvents = [...events]
     .filter(event => {
       // Title filter
@@ -54,9 +54,26 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
       
       return titleMatch && locationMatch && dateMatch;
     })
-    .sort((a, b) => 
-      new Date(a.StartDate).getTime() - new Date(b.StartDate).getTime()
-    );
+    .sort((a, b) => {
+      // Helper function to check if event is live/ongoing
+      const isLive = (event: CollaborationEvent) => {
+        if (!event.StartDate || !event.EndDate) return false;
+        const now = new Date();
+        const start = new Date(event.StartDate);
+        const end = new Date(event.EndDate);
+        return now >= start && now <= end;
+      };
+
+      const aIsLive = isLive(a);
+      const bIsLive = isLive(b);
+
+      // Prioritize live events first
+      if (aIsLive && !bIsLive) return -1;
+      if (!aIsLive && bIsLive) return 1;
+
+      // Then sort by StartDate
+      return new Date(a.StartDate).getTime() - new Date(b.StartDate).getTime();
+    });
 
   const clearDateFilters = () => {
     setDateRange(undefined);
