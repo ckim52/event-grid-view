@@ -1,109 +1,302 @@
 [
-{
-"JapaneseTitle": "お文具といっしょ スイーツパーティーカフェ in 東京/兵庫 9月2日より開催!",
-"EnglishTitle": "Stationery Sweets Party Cafe in Tokyo/Hyogo",
-"Type": "Collaboration Cafe",
-"Location": "Shinjuku",
-"StartDate": "2025-09-02",
-"EndDate": "2025-09-30",
-"Address": "CONCEPT CAFE SHINJUKU BY SWEETS PARADISE, Tokyo; CONCEPT CAFE KOBE BY SWEETS PARADISE, Hyogo",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/obungu-cafe-sweets-paradise-tokyo-hyogo-2025/](https://collabo-cafe.com/events/collabo/obungu-cafe-sweets-paradise-tokyo-hyogo-2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/3a0fb6ff7b6ee91bbf4201723e2f3076.jpg](https://collabo-cafe.com/wp-content/uploads/3a0fb6ff7b6ee91bbf4201723e2f3076.jpg)",
-"Series": "Original Stationery",
-"GoogleMapsURL": "[https://www.google.com/maps/search/CONCEPT+CAFE+SHINJUKU+BY+SWEETS+PARADISE,+Tokyo;CONCEPT+CAFE+KOBE+BY+SWEETS+PARADISE,+Hyogo](https://www.google.com/maps/search/CONCEPT+CAFE+SHINJUKU+BY+SWEETS+PARADISE,+Tokyo;CONCEPT+CAFE+KOBE+BY+SWEETS+PARADISE,+Hyogo)",
-"KeyHighlights": "Enjoy themed stationery sweets and desserts at special cafes in Tokyo and Hyogo."
-},
-{
-"JapaneseTitle": "リコリス・リコイル 描き下ろしストア in 新宿マルイメン 8月16日開始!",
-"EnglishTitle": "Lycoris Recoil Original Store in Shinjuku Marui Men",
-"Type": "Pop-up Store",
-"Location": "Shinjuku",
-"StartDate": "2025-08-16",
-"EndDate": "2025-08-31",
-"Address": "Shinjuku Marui Men, Tokyo",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/lycoris-recoil-pop-up-store-shinjuku-marui-men-2025/](https://collabo-cafe.com/events/collabo/lycoris-recoil-pop-up-store-shinjuku-marui-men-2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/338ae0ac18e6a13f54b5486d519fa5e2-2079.jpg](https://collabo-cafe.com/wp-content/uploads/338ae0ac18e6a13f54b5486d519fa5e2-2079.jpg)",
-"Series": "Lycoris Recoil",
-"GoogleMapsURL": "[https://www.google.com/maps/search/Shinjuku+Marui+Men,+Tokyo](https://www.google.com/maps/search/Shinjuku+Marui+Men,+Tokyo)",
-"KeyHighlights": "Exclusive Lycoris Recoil merchandise and illustrations available at this Shinjuku pop-up store."
-},
-{
-"JapaneseTitle": "映画 忍たま乱太郎 展示会に併せ新宿/なんばにて期間限定で復活上映!",
-"EnglishTitle": "Nintama Rantaro Movie Limited Revival Screening",
-"Type": "Special Screening",
-"Location": "Shinjuku",
-"StartDate": "2025-08-15",
-"EndDate": "2025-10-13",
-"Address": "Shinjuku Piccadilly, Tokyo; Namba Parks Cinema, Osaka",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/nintama-movie-rerun-shinjuku-nanba-2025/](https://collabo-cafe.com/events/collabo/nintama-movie-rerun-shinjuku-nanba-2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2468.jpg](https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4f587d15bd771-2468.jpg)",
-"Series": "Nintama Rantaro",
-"GoogleMapsURL": "[https://www.google.com/maps/search/Shinjuku+Piccadilly,+Tokyo;Namba+Parks+Cinema,+Osaka](https://www.google.com/maps/search/Shinjuku+Piccadilly,+Tokyo;Namba+Parks+Cinema,+Osaka)",
-"KeyHighlights": "Limited-time revival screening of the Nintama Rantaro movie in Tokyo and Osaka."
-},
-{
-"JapaneseTitle": "究極超人あ～る ストア in 新宿 8月13日より開催!",
-"EnglishTitle": "Ultimate Superjin A-R Pop-up Store in Shinjuku",
-"Type": "Pop-up Store",
-"Location": "Shinjuku",
-"StartDate": "2025-08-13",
-"EndDate": "2025-08-24",
-"Address": "Kinokuniya Shinjuku Main Store, Tokyo",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/a-ru-pop-up-store-tokyo-2025/](https://collabo-cafe.com/events/collabo/a-ru-pop-up-store-tokyo-2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/4e60739fd73c9a24a2b1ab5bd300f3b3.jpg](https://collabo-cafe.com/wp-content/uploads/4e60739fd73c9a24a2b1ab5bd300f3b3.jpg)",
-"Series": "Ultimate Superjin A-R",
-"GoogleMapsURL": "[https://www.google.com/maps/search/Kinokuniya+Shinjuku+Main+Store,+Tokyo](https://www.google.com/maps/search/Kinokuniya+Shinjuku+Main+Store,+Tokyo)",
-"KeyHighlights": "Shop exclusive Ultimate Superjin A-R merchandise at Shinjuku's Kinokuniya store."
-},
-{
-"JapaneseTitle": "ゲゲゲの鬼太郎 謎解きイベント in 東京 9月6日より開催!",
-"EnglishTitle": "GeGeGe no Kitaro Mystery Solving Event in Tokyo",
-"Type": "Interactive Event",
-"Location": "Shinjuku",
-"StartDate": "2025-09-06",
-"EndDate": "2025-10-26",
-"Address": "Dramatic Mystery Game 2nd Shop -HOLE-, Tokyo",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/gegegenokitaro-yodaka-nazotoki2025/](https://collabo-cafe.com/events/collabo/gegegenokitaro-yodaka-nazotoki2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/d921d45a829214ba270a925b3de6fbfd-22.jpg](https://collabo-cafe.com/wp-content/uploads/d921d45a829214ba270a925b3de6fbfd-22.jpg)",
-"Series": "GeGeGe no Kitaro",
-"GoogleMapsURL": "[https://www.google.com/maps/search/Dramatic+Mystery+Game+2nd+Shop+-HOLE-,+Tokyo](https://www.google.com/maps/search/Dramatic+Mystery+Game+2nd+Shop+-HOLE-,+Tokyo)",
-"KeyHighlights": "Participate in a mystery-solving event themed around GeGeGe no Kitaro in Tokyo."
-},
-{
-"JapaneseTitle": "鬼太郎誕生 ゲゲゲの謎 × 全国4ヵ所の寺社 8月1日よりコラボ開催!",
-"EnglishTitle": "Kitaro's Birth: GeGeGe no Nazo Collaboration with Temples and Shrines",
-"Type": "Interactive Event",
-"Location": "Shinjuku",
-"StartDate": "2025-08-01",
-"EndDate": "2025-10-27",
-"Address": "Youunji, Tokyo; Myomanji, Kyoto; Suma-dera, Hyogo; Youkai Shrine, Tottori",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/gegegenokitaro-kitaro-tanjo-fuuuu2025/](https://collabo-cafe.com/events/collabo/gegegenokitaro-kitaro-tanjo-fuuuu2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/fd8519e503d012c49104273270a37434.jpg](https://collabo-cafe.com/wp-content/uploads/fd8519e503d012c49104273270a37434.jpg)",
-"Series": "GeGeGe no Kitaro",
-"GoogleMapsURL": "[https://www.google.com/maps/search/Youunji,+Tokyo;Myomanji,+Kyoto;Suma-dera,+Hyogo;Youkai+Shrine,+Tottori](https://www.google.com/maps/search/Youunji,+Tokyo;Myomanji,+Kyoto;Suma-dera,+Hyogo;Youkai+Shrine,+Tottori)",
-"KeyHighlights": "Explore special sites across Japan for the Kitaro-themed collaboration with temples and shrines."
-},
-{
-"JapaneseTitle": "黒子のバスケ 戦う背中ver.ストア in マルイ3店舗 8月2日より順次開催!",
-"EnglishTitle": "Kuroko's Basketball Fighting Back Ver. Store in 3 Marui Locations",
-"Type": "Pop-up Store",
-"Location": "Shinjuku",
-"StartDate": "2025-08-02",
-"EndDate": "2025-09-28",
-"Address": "Namba Marui, Osaka; Hakata Marui, Fukuoka; Shinjuku Marui Annex, Tokyo",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/kuroko-no-basuke-pop-up-store-marui-2025/](https://collabo-cafe.com/events/collabo/kuroko-no-basuke-pop-up-store-marui-2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/77749f5e5018e9cdd4a03a98ba3a635b-1717.jpg](https://collabo-cafe.com/wp-content/uploads/77749f5e5018e9cdd4a03a98ba3a635b-1717.jpg)",
-"Series": "Kuroko's Basketball",
-"GoogleMapsURL": "[https://www.google.com/maps/search/Namba+Marui,+Osaka;Hakata+Marui,+Fukuoka;Shinjuku+Marui+Annex,+Tokyo](https://www.google.com/maps/search/Namba+Marui,+Osaka;Hakata+Marui,+Fukuoka;Shinjuku+Marui+Annex,+Tokyo)",
-"KeyHighlights": "Purchase Kuroko's Basketball merchandise across multiple Marui locations."
-},
-{
-"JapaneseTitle": "鬼滅の刃 ナムコ応援店キャンペーン 漆ノ章 2025年7月18日より開催!",
-"EnglishTitle": "Demon Slayer Namco Support Store Campaign - Urushi no Sho",
-"Type": "Campaign Event",
-"Location": "Shinjuku",
-"StartDate": "2025-07-18",
-"EndDate": "2025-08-24",
-"Address": "namcoTOKYO, namco Akihabara, namco Ikebukuro, namco Umeda, namco Hakata Bus Terminal",
-"CollaboURL": "[https://collabo-cafe.com/events/collabo/kimetsu-namco-vol6-campaign-2025/](https://collabo-cafe.com/events/collabo/kimetsu-namco-vol6-campaign-2025/)",
-"ThumbnailURL": "[https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4](https://collabo-cafe.com/wp-content/uploads/4e2eefe31e5bfbce3ab4)
+  {
+    "JapaneseTitle": "アズールレーン × パセラ 8月29日より8周年記念コラボ開催!",
+    "EnglishTitle": "Azur Lane x Pasela 8th Anniversary Collaboration",
+    "Type": "Collaboration Cafe",
+    "Location": "Pasela Resorts Shinjuku",
+    "Address": "Tokyo, Shinjuku City, Kabukicho, 1 Chome−3−16",
+    "GoogleMapsURL": "https://maps.google.com/?q=Pasela+Resorts+Shinjuku",
+    "StartDate": "2025-08-29",
+    "EndDate": "2025-09-15",
+    "Series": "Azur Lane",
+    "KeyHighlights": [
+      "Exclusive collaboration menu",
+      "8th anniversary limited goods"
+    ]
+  },
+  {
+    "JapaneseTitle": "東京リベンジャーズ × THEキャラSHOP 新宿マルイアネックス 8月30日より開催!",
+    "EnglishTitle": "Tokyo Revengers x THE Chara SHOP Shinjuku Marui Annex",
+    "Type": "Pop-up Shop",
+    "Location": "Shinjuku Marui Annex",
+    "Address": "3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Annex",
+    "StartDate": "2025-08-30",
+    "EndDate": "2025-09-10",
+    "Series": "Tokyo Revengers",
+    "KeyHighlights": [
+      "Exclusive goods",
+      "Photo spot displays"
+    ]
+  },
+  {
+    "JapaneseTitle": "呪術廻戦 × THEキャラSHOP 新宿マルイアネックス 9月1日より開催!",
+    "EnglishTitle": "Jujutsu Kaisen x THE Chara SHOP Shinjuku Marui Annex",
+    "Type": "Pop-up Shop",
+    "Location": "Shinjuku Marui Annex",
+    "Address": "3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Annex",
+    "StartDate": "2025-09-01",
+    "EndDate": "2025-09-15",
+    "Series": "Jujutsu Kaisen",
+    "KeyHighlights": [
+      "Limited collaboration goods",
+      "Life-sized panels"
+    ]
+  },
+  {
+    "JapaneseTitle": "ブルーロック × THEキャラSHOP 新宿マルイアネックス 9月5日より開催!",
+    "EnglishTitle": "Blue Lock x THE Chara SHOP Shinjuku Marui Annex",
+    "Type": "Pop-up Shop",
+    "Location": "Shinjuku Marui Annex",
+    "Address": "3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Annex",
+    "StartDate": "2025-09-05",
+    "EndDate": "2025-09-20",
+    "Series": "Blue Lock",
+    "KeyHighlights": [
+      "Exclusive illustrations",
+      "Limited edition merchandise"
+    ]
+  },
+  {
+    "JapaneseTitle": "スパイファミリー × アニメイトカフェ新宿 8月25日より開催!",
+    "EnglishTitle": "Spy x Family x Animate Cafe Shinjuku",
+    "Type": "Collaboration Cafe",
+    "Location": "Animate Cafe Shinjuku",
+    "Address": "3 Chome−1−26 Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Shinjuku",
+    "StartDate": "2025-08-25",
+    "EndDate": "2025-09-30",
+    "Series": "Spy x Family",
+    "KeyHighlights": [
+      "Collaboration drinks and desserts",
+      "Themed cafe decor"
+    ]
+  },
+  {
+    "JapaneseTitle": "お文具といっしょ スイーツパーティーカフェ in 東京/兵庫 9月2日より開催!",
+    "EnglishTitle": "Stationery Characters Sweets Party Cafe in Tokyo/Hyogo",
+    "Type": "Collaboration Cafe",
+    "Location": "Tokyo, Hyogo",
+    "Address": "Shinjuku, Tokyo (Tokyo venue)",
+    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Tokyo",
+    "StartDate": "2025-09-02",
+    "EndDate": "2025-09-20",
+    "Series": "Obungu to Issho",
+    "KeyHighlights": [
+      "Themed sweets menu",
+      "Special event-exclusive merchandise"
+    ]
+  },
+  {
+    "JapaneseTitle": "リコリス・リコイル 描き下ろしストア in 新宿マルイメン 8月16日開始!",
+    "EnglishTitle": "Lycoris Recoil Original Art Store in Shinjuku Marui Men",
+    "Type": "Pop-up Store",
+    "Location": "Shinjuku Marui Men",
+    "Address": "5 Chome-16-1 Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Men",
+    "StartDate": "2025-08-16",
+    "EndDate": "2025-08-31",
+    "Series": "Lycoris Recoil",
+    "KeyHighlights": [
+      "Exclusive art goods",
+      "Specialty illustrations"
+    ]
+  },
+  {
+    "JapaneseTitle": "ブルーロック × カラオケの鉄人 新宿大ガード店 9月10日よりコラボ開催!",
+    "EnglishTitle": "Blue Lock x Karaoke no Tetsujin Shinjuku Ogard",
+    "Type": "Collaboration Karaoke",
+    "Location": "Karaoke no Tetsujin Shinjuku Ogard",
+    "Address": "1 Chome-3-16 Kabukicho, Shinjuku City, Tokyo 160-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Karaoke+no+Tetsujin+Shinjuku+Ogard",
+    "StartDate": "2025-09-10",
+    "EndDate": "2025-09-25",
+    "Series": "Blue Lock",
+    "KeyHighlights": [
+      "Collaboration drinks",
+      "Exclusive coasters"
+    ]
+  },
+  {
+    "JapaneseTitle": "ディズニーツイステッドワンダーランド × アニメイトカフェ新宿 9月15日より開催!",
+    "EnglishTitle": "Disney Twisted Wonderland x Animate Cafe Shinjuku",
+    "Type": "Collaboration Cafe",
+    "Location": "Animate Cafe Shinjuku",
+    "Address": "3 Chome−1−26 Shinjuku, Shinjuku City, Tokyo 160-0022",
+    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Shinjuku",
+    "StartDate": "2025-09-15",
+    "EndDate": "2025-09-30",
+    "Series": "Disney Twisted Wonderland",
+    "KeyHighlights": [
+      "Themed food and drink",
+      "Collaboration merchandise"
+    ]
+  },
+  {
+    "JapaneseTitle": "ワンピース × JUMP SHOP 東京ドームシティ店 8月20日より開催!",
+    "EnglishTitle": "One Piece x JUMP SHOP Tokyo Dome City",
+    "Type": "Pop-up Shop",
+    "Location": "JUMP SHOP Tokyo Dome City",
+    "Address": "1 Chome-3-61 Koraku, Bunkyo City, Tokyo 112-0004",
+    "GoogleMapsURL": "https://maps.google.com/?q=JUMP+SHOP+Tokyo+Dome+City",
+    "StartDate": "2025-08-20",
+    "EndDate": "2025-09-10",
+    "Series": "One Piece",
+    "KeyHighlights": [
+      "Exclusive collaboration items",
+      "Event-limited visuals"
+    ]
+  },
+  {
+    "JapaneseTitle": "初音ミク × アニメイトカフェ秋葉原 8月25日よりコラボ開催!",
+    "EnglishTitle": "Hatsune Miku x Animate Cafe Akihabara",
+    "Type": "Collaboration Cafe",
+    "Location": "Animate Cafe Akihabara",
+    "Address": "4 Chome-2-2 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Akihabara",
+    "StartDate": "2025-08-25",
+    "EndDate": "2025-09-15",
+    "Series": "Hatsune Miku",
+    "KeyHighlights": [
+      "Collaboration food & drinks",
+      "Exclusive goods"
+    ]
+  },
+  {
+    "JapaneseTitle": "ラブライブ！スーパースター!! × アトレ秋葉原 9月1日よりコラボ開催!",
+    "EnglishTitle": "Love Live! Superstar!! x Atre Akihabara",
+    "Type": "Collaboration Event",
+    "Location": "Atre Akihabara",
+    "Address": "1 Chome-17-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Atre+Akihabara",
+    "StartDate": "2025-09-01",
+    "EndDate": "2025-09-20",
+    "Series": "Love Live! Superstar!!",
+    "KeyHighlights": [
+      "Character panels",
+      "Special merchandise"
+    ]
+  },
+  {
+    "JapaneseTitle": "Fate/Grand Order × カラオケの鉄人 秋葉原昭和通り口店 8月28日よりコラボ開催!",
+    "EnglishTitle": "Fate/Grand Order x Karaoke no Tetsujin Akihabara Showa-dori",
+    "Type": "Collaboration Karaoke",
+    "Location": "Karaoke no Tetsujin Akihabara Showa-dori",
+    "Address": "1 Chome-15-9 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Karaoke+no+Tetsujin+Akihabara+Showa+dori",
+    "StartDate": "2025-08-28",
+    "EndDate": "2025-09-15",
+    "Series": "Fate/Grand Order",
+    "KeyHighlights": [
+      "Collaboration drinks",
+      "Limited edition coasters"
+    ]
+  },
+  {
+    "JapaneseTitle": "アイドルマスター SideM × THEキャラSHOP 秋葉原 8月22日より開催!",
+    "EnglishTitle": "The Idolmaster SideM x THE Chara SHOP Akihabara",
+    "Type": "Pop-up Shop",
+    "Location": "Akihabara",
+    "Address": "1 Chome-7-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Akihabara",
+    "StartDate": "2025-08-22",
+    "EndDate": "2025-09-05",
+    "Series": "The Idolmaster SideM",
+    "KeyHighlights": [
+      "Exclusive merchandise",
+      "Special exhibition"
+    ]
+  },
+  {
+    "JapaneseTitle": "にじさんじ × アニメイト秋葉原本館 8月27日よりコラボショップ開催!",
+    "EnglishTitle": "Nijisanji x Animate Akihabara Main Store",
+    "Type": "Collaboration Shop",
+    "Location": "Animate Akihabara Main Store",
+    "Address": "4 Chome-3-2 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Akihabara+Main+Store",
+    "StartDate": "2025-08-27",
+    "EndDate": "2025-09-12",
+    "Series": "Nijisanji",
+    "KeyHighlights": [
+      "Collaboration merchandise",
+      "Exclusive displays"
+    ]
+  },
+  {
+    "JapaneseTitle": "銀魂 × THEキャラSHOP 秋葉原 9月3日より開催!",
+    "EnglishTitle": "Gintama x THE Chara SHOP Akihabara",
+    "Type": "Pop-up Shop",
+    "Location": "Akihabara",
+    "Address": "1 Chome-7-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Akihabara",
+    "StartDate": "2025-09-03",
+    "EndDate": "2025-09-18",
+    "Series": "Gintama",
+    "KeyHighlights": [
+      "Limited edition goods",
+      "Special visuals"
+    ]
+  },
+  {
+    "JapaneseTitle": "Re:ゼロから始める異世界生活 × アニメイトカフェ秋葉原2号店 9月7日より開催!",
+    "EnglishTitle": "Re:Zero -Starting Life in Another World- x Animate Cafe Akihabara 2nd",
+    "Type": "Collaboration Cafe",
+    "Location": "Animate Cafe Akihabara 2nd",
+    "Address": "3 Chome-7-12 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Akihabara+2nd",
+    "StartDate": "2025-09-07",
+    "EndDate": "2025-09-25",
+    "Series": "Re:Zero",
+    "KeyHighlights": [
+      "Themed food & drinks",
+      "Exclusive character goods"
+    ]
+  },
+  {
+    "JapaneseTitle": "チェンソーマン × アニメイト秋葉原本館 9月12日よりコラボ開催!",
+    "EnglishTitle": "Chainsaw Man x Animate Akihabara Main Store",
+    "Type": "Collaboration Shop",
+    "Location": "Animate Akihabara Main Store",
+    "Address": "4 Chome-3-2 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Akihabara+Main+Store",
+    "StartDate": "2025-09-12",
+    "EndDate": "2025-09-28",
+    "Series": "Chainsaw Man",
+    "KeyHighlights": [
+      "Exclusive merchandise",
+      "Special displays"
+    ]
+  },
+  {
+    "JapaneseTitle": "ガールズバンドクライ × カラオケの鉄人 秋葉原店 8月21日よりコラボ開催!",
+    "EnglishTitle": "Girls Band Cry x Karaoke no Tetsujin Akihabara",
+    "Type": "Collaboration Karaoke",
+    "Location": "Karaoke no Tetsujin Akihabara",
+    "Address": "1 Chome-15-9 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Karaoke+no+Tetsujin+Akihabara",
+    "StartDate": "2025-08-21",
+    "EndDate": "2025-09-10",
+    "Series": "Girls Band Cry",
+    "KeyHighlights": [
+      "Collaboration drinks",
+      "Limited edition coasters"
+    ]
+  },
+  {
+    "JapaneseTitle": "ソードアート・オンライン × アトレ秋葉原 9月14日よりコラボ開催!",
+    "EnglishTitle": "Sword Art Online x Atre Akihabara",
+    "Type": "Collaboration Event",
+    "Location": "Atre Akihabara",
+    "Address": "1 Chome-17-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
+    "GoogleMapsURL": "https://maps.google.com/?q=Atre+Akihabara",
+    "StartDate": "2025-09-14",
+    "EndDate": "2025-09-30",
+    "Series": "Sword Art Online",
+    "KeyHighlights": [
+      "Exclusive visuals",
+      "Special collaboration goods"
+    ]
+  }
+]
