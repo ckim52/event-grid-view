@@ -103,7 +103,6 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
           {/* Filters */}
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <div className="flex items-center gap-2">
-              <span className="text-sm font-medium">Location:</span>
               <Select value={selectedLocation} onValueChange={setSelectedLocation}>
                 <SelectTrigger className="w-[160px]">
                   <SelectValue placeholder="All locations" />
@@ -120,8 +119,6 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="text-sm font-medium">Date Range:</span>
-              
               <Popover>
                 <PopoverTrigger asChild>
                   <Button
