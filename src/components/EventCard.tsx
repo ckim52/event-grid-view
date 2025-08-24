@@ -9,7 +9,9 @@ interface EventCardProps {
 }
 
 export const EventCard = ({ event }: EventCardProps) => {
-  const formatDateRange = (startDate: string, endDate: string) => {
+  const formatDateRange = (startDate: string | null, endDate: string | null) => {
+    if (!startDate || !endDate) return 'TBD';
+    
     const start = new Date(startDate);
     const end = new Date(endDate);
     
@@ -28,6 +30,7 @@ export const EventCard = ({ event }: EventCardProps) => {
   };
 
   const isOngoing = () => {
+    if (!event.StartDate || !event.EndDate) return false;
     const now = new Date();
     const start = new Date(event.StartDate);
     const end = new Date(event.EndDate);
@@ -35,6 +38,7 @@ export const EventCard = ({ event }: EventCardProps) => {
   };
 
   const isUpcoming = () => {
+    if (!event.StartDate) return false;
     const now = new Date();
     const start = new Date(event.StartDate);
     return now < start;
@@ -42,27 +46,27 @@ export const EventCard = ({ event }: EventCardProps) => {
 
   return (
     <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
-      <CardHeader>
-        <div className="flex items-start justify-between gap-2 mb-2">
+      <CardHeader className="pb-4">
+        <div className="flex items-start justify-between gap-2 mb-3">
           {isOngoing() && (
-            <Badge className="bg-green-500 text-white">Live</Badge>
+            <Badge className="bg-green-500 text-white shrink-0">Live</Badge>
           )}
         </div>
         
-        <CardTitle className="line-clamp-2 text-lg leading-tight">
+        <CardTitle className="line-clamp-2 text-lg leading-tight mb-2">
           {event.EnglishTitle}
         </CardTitle>
         
-        <CardDescription className="text-sm text-muted-foreground font-medium line-clamp-1">
+        <CardDescription className="text-sm text-muted-foreground font-medium line-clamp-1 mb-3">
           {event.JapaneseTitle}
         </CardDescription>
         
         {event.ThumbnailURL && (
-          <div className="mt-3">
+          <div className="w-full">
             <img 
               src={event.ThumbnailURL} 
               alt={event.EnglishTitle}
-              className="w-full h-32 object-cover rounded-md"
+              className="w-full h-40 object-cover rounded-md"
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
               }}
@@ -71,37 +75,38 @@ export const EventCard = ({ event }: EventCardProps) => {
         )}
       </CardHeader>
 
-      <CardContent className="flex-1 flex flex-col justify-between">
-        <div className="space-y-3">
-          <div>
-            <p className="text-sm font-medium text-foreground">{event.Location}</p>
+      <CardContent className="flex-1 flex flex-col justify-between pt-0">
+        <div className="space-y-4">
+          <div className="space-y-2">
+            <p className="text-sm font-semibold text-foreground">{event.Location}</p>
             <a 
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.Address).replace(/%20/g, '+')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-primary hover:underline cursor-pointer"
+              className="text-xs text-primary hover:underline cursor-pointer line-clamp-2 block"
             >
               {event.Address}
             </a>
           </div>
 
-          <div className="text-sm">
-            <span className="font-medium">Duration:</span> {formatDateRange(event.StartDate, event.EndDate)}
+          <div className="text-sm space-y-1">
+            <span className="font-medium text-foreground">Duration:</span>
+            <p className="text-muted-foreground">{formatDateRange(event.StartDate, event.EndDate)}</p>
           </div>
 
-          <div className="flex flex-col gap-2">
-            <Badge variant={isOngoing() ? "default" : isUpcoming() ? "secondary" : "outline"} className="text-xs w-fit">
+          <div className="flex justify-start">
+            <Badge variant={isOngoing() ? "default" : isUpcoming() ? "secondary" : "outline"} className="text-xs">
               {event.Type}
             </Badge>
           </div>
         </div>
 
-        <div className="mt-4 pt-4 border-t">
+        <div className="mt-6 pt-4 border-t border-border">
           <Button 
             variant="outline" 
             size="sm" 
             className="w-full"
-            onClick={() => window.open(event.OfficialURL, '_blank')}
+            onClick={() => window.open(event.CollaboURL, '_blank')}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
             Official Page
