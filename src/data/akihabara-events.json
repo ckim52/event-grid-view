@@ -3,300 +3,98 @@
     "JapaneseTitle": "アズールレーン × パセラ 8月29日より8周年記念コラボ開催!",
     "EnglishTitle": "Azur Lane x Pasela 8th Anniversary Collaboration",
     "Type": "Collaboration Cafe",
-    "Location": "Pasela Resorts Shinjuku",
-    "Address": "Tokyo, Shinjuku City, Kabukicho, 1 Chome−3−16",
-    "GoogleMapsURL": "https://maps.google.com/?q=Pasela+Resorts+Shinjuku",
+    "Location": "Akihabara",
     "StartDate": "2025-08-29",
-    "EndDate": "2025-09-15",
+    "EndDate": "2025-10-05",
+    "Address": "カラオケパセラ 秋葉原電気街店、カラオケパセラ AKIBAマルチエンターテインメント店、ハニトーカフェ 秋葉原店、バーリズム 秋葉原電気街店、パセラボ 秋葉原館、カプセルホテル安心お宿 秋葉原電気街店(男性専用)",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/azurlane-pasela2025/",
+    "ThumbnailURL": null,
     "Series": "Azur Lane",
-    "KeyHighlights": [
-      "Exclusive collaboration menu",
-      "8th anniversary limited goods"
-    ]
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=カラオケパセラ 秋葉原電気街店",
+    "KeyHighlights": "8th anniversary collaboration of Azur Lane at multiple Akihabara locations."
   },
   {
-    "JapaneseTitle": "東京リベンジャーズ × THEキャラSHOP 新宿マルイアネックス 8月30日より開催!",
-    "EnglishTitle": "Tokyo Revengers x THE Chara SHOP Shinjuku Marui Annex",
-    "Type": "Pop-up Shop",
-    "Location": "Shinjuku Marui Annex",
-    "Address": "3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022",
-    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Annex",
-    "StartDate": "2025-08-30",
-    "EndDate": "2025-09-10",
-    "Series": "Tokyo Revengers",
-    "KeyHighlights": [
-      "Exclusive goods",
-      "Photo spot displays"
-    ]
-  },
-  {
-    "JapaneseTitle": "呪術廻戦 × THEキャラSHOP 新宿マルイアネックス 9月1日より開催!",
-    "EnglishTitle": "Jujutsu Kaisen x THE Chara SHOP Shinjuku Marui Annex",
-    "Type": "Pop-up Shop",
-    "Location": "Shinjuku Marui Annex",
-    "Address": "3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022",
-    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Annex",
-    "StartDate": "2025-09-01",
-    "EndDate": "2025-09-15",
-    "Series": "Jujutsu Kaisen",
-    "KeyHighlights": [
-      "Limited collaboration goods",
-      "Life-sized panels"
-    ]
-  },
-  {
-    "JapaneseTitle": "ブルーロック × THEキャラSHOP 新宿マルイアネックス 9月5日より開催!",
-    "EnglishTitle": "Blue Lock x THE Chara SHOP Shinjuku Marui Annex",
-    "Type": "Pop-up Shop",
-    "Location": "Shinjuku Marui Annex",
-    "Address": "3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022",
-    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Annex",
-    "StartDate": "2025-09-05",
-    "EndDate": "2025-09-20",
-    "Series": "Blue Lock",
-    "KeyHighlights": [
-      "Exclusive illustrations",
-      "Limited edition merchandise"
-    ]
-  },
-  {
-    "JapaneseTitle": "スパイファミリー × アニメイトカフェ新宿 8月25日より開催!",
-    "EnglishTitle": "Spy x Family x Animate Cafe Shinjuku",
-    "Type": "Collaboration Cafe",
-    "Location": "Animate Cafe Shinjuku",
-    "Address": "3 Chome−1−26 Shinjuku, Shinjuku City, Tokyo 160-0022",
-    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Shinjuku",
-    "StartDate": "2025-08-25",
-    "EndDate": "2025-09-30",
-    "Series": "Spy x Family",
-    "KeyHighlights": [
-      "Collaboration drinks and desserts",
-      "Themed cafe decor"
-    ]
-  },
-  {
-    "JapaneseTitle": "お文具といっしょ スイーツパーティーカフェ in 東京/兵庫 9月2日より開催!",
-    "EnglishTitle": "Stationery Characters Sweets Party Cafe in Tokyo/Hyogo",
-    "Type": "Collaboration Cafe",
-    "Location": "Tokyo, Hyogo",
-    "Address": "Shinjuku, Tokyo (Tokyo venue)",
-    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Tokyo",
-    "StartDate": "2025-09-02",
-    "EndDate": "2025-09-20",
-    "Series": "Obungu to Issho",
-    "KeyHighlights": [
-      "Themed sweets menu",
-      "Special event-exclusive merchandise"
-    ]
-  },
-  {
-    "JapaneseTitle": "リコリス・リコイル 描き下ろしストア in 新宿マルイメン 8月16日開始!",
-    "EnglishTitle": "Lycoris Recoil Original Art Store in Shinjuku Marui Men",
+    "JapaneseTitle": "デート・ア・ライブ ポップアップストア in ゲーマーズ 8月23日より開催!",
+    "EnglishTitle": "Date A Live Pop-up Store in Gamers",
     "Type": "Pop-up Store",
-    "Location": "Shinjuku Marui Men",
-    "Address": "5 Chome-16-1 Shinjuku, Shinjuku City, Tokyo 160-0022",
-    "GoogleMapsURL": "https://maps.google.com/?q=Shinjuku+Marui+Men",
-    "StartDate": "2025-08-16",
-    "EndDate": "2025-08-31",
-    "Series": "Lycoris Recoil",
-    "KeyHighlights": [
-      "Exclusive art goods",
-      "Specialty illustrations"
-    ]
-  },
-  {
-    "JapaneseTitle": "ブルーロック × カラオケの鉄人 新宿大ガード店 9月10日よりコラボ開催!",
-    "EnglishTitle": "Blue Lock x Karaoke no Tetsujin Shinjuku Ogard",
-    "Type": "Collaboration Karaoke",
-    "Location": "Karaoke no Tetsujin Shinjuku Ogard",
-    "Address": "1 Chome-3-16 Kabukicho, Shinjuku City, Tokyo 160-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Karaoke+no+Tetsujin+Shinjuku+Ogard",
-    "StartDate": "2025-09-10",
-    "EndDate": "2025-09-25",
-    "Series": "Blue Lock",
-    "KeyHighlights": [
-      "Collaboration drinks",
-      "Exclusive coasters"
-    ]
-  },
-  {
-    "JapaneseTitle": "ディズニーツイステッドワンダーランド × アニメイトカフェ新宿 9月15日より開催!",
-    "EnglishTitle": "Disney Twisted Wonderland x Animate Cafe Shinjuku",
-    "Type": "Collaboration Cafe",
-    "Location": "Animate Cafe Shinjuku",
-    "Address": "3 Chome−1−26 Shinjuku, Shinjuku City, Tokyo 160-0022",
-    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Shinjuku",
-    "StartDate": "2025-09-15",
-    "EndDate": "2025-09-30",
-    "Series": "Disney Twisted Wonderland",
-    "KeyHighlights": [
-      "Themed food and drink",
-      "Collaboration merchandise"
-    ]
-  },
-  {
-    "JapaneseTitle": "ワンピース × JUMP SHOP 東京ドームシティ店 8月20日より開催!",
-    "EnglishTitle": "One Piece x JUMP SHOP Tokyo Dome City",
-    "Type": "Pop-up Shop",
-    "Location": "JUMP SHOP Tokyo Dome City",
-    "Address": "1 Chome-3-61 Koraku, Bunkyo City, Tokyo 112-0004",
-    "GoogleMapsURL": "https://maps.google.com/?q=JUMP+SHOP+Tokyo+Dome+City",
-    "StartDate": "2025-08-20",
-    "EndDate": "2025-09-10",
-    "Series": "One Piece",
-    "KeyHighlights": [
-      "Exclusive collaboration items",
-      "Event-limited visuals"
-    ]
-  },
-  {
-    "JapaneseTitle": "初音ミク × アニメイトカフェ秋葉原 8月25日よりコラボ開催!",
-    "EnglishTitle": "Hatsune Miku x Animate Cafe Akihabara",
-    "Type": "Collaboration Cafe",
-    "Location": "Animate Cafe Akihabara",
-    "Address": "4 Chome-2-2 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Akihabara",
-    "StartDate": "2025-08-25",
-    "EndDate": "2025-09-15",
-    "Series": "Hatsune Miku",
-    "KeyHighlights": [
-      "Collaboration food & drinks",
-      "Exclusive goods"
-    ]
-  },
-  {
-    "JapaneseTitle": "ラブライブ！スーパースター!! × アトレ秋葉原 9月1日よりコラボ開催!",
-    "EnglishTitle": "Love Live! Superstar!! x Atre Akihabara",
-    "Type": "Collaboration Event",
-    "Location": "Atre Akihabara",
-    "Address": "1 Chome-17-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Atre+Akihabara",
-    "StartDate": "2025-09-01",
-    "EndDate": "2025-09-20",
-    "Series": "Love Live! Superstar!!",
-    "KeyHighlights": [
-      "Character panels",
-      "Special merchandise"
-    ]
-  },
-  {
-    "JapaneseTitle": "Fate/Grand Order × カラオケの鉄人 秋葉原昭和通り口店 8月28日よりコラボ開催!",
-    "EnglishTitle": "Fate/Grand Order x Karaoke no Tetsujin Akihabara Showa-dori",
-    "Type": "Collaboration Karaoke",
-    "Location": "Karaoke no Tetsujin Akihabara Showa-dori",
-    "Address": "1 Chome-15-9 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Karaoke+no+Tetsujin+Akihabara+Showa+dori",
-    "StartDate": "2025-08-28",
-    "EndDate": "2025-09-15",
-    "Series": "Fate/Grand Order",
-    "KeyHighlights": [
-      "Collaboration drinks",
-      "Limited edition coasters"
-    ]
-  },
-  {
-    "JapaneseTitle": "アイドルマスター SideM × THEキャラSHOP 秋葉原 8月22日より開催!",
-    "EnglishTitle": "The Idolmaster SideM x THE Chara SHOP Akihabara",
-    "Type": "Pop-up Shop",
     "Location": "Akihabara",
-    "Address": "1 Chome-7-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Akihabara",
-    "StartDate": "2025-08-22",
-    "EndDate": "2025-09-05",
-    "Series": "The Idolmaster SideM",
-    "KeyHighlights": [
-      "Exclusive merchandise",
-      "Special exhibition"
-    ]
+    "StartDate": "2025-08-23",
+    "EndDate": "2025-09-07",
+    "Address": "AKIHABARAゲーマーズ本店、ゲーマーズ仙台店、ゲーマーズ名古屋店、ゲーマーズなんば店",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/date-a-live-pop-up-store-gamers2025/",
+    "ThumbnailURL": null,
+    "Series": "Date A Live",
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=AKIHABARAゲーマーズ本店",
+    "KeyHighlights": "Pop-up store event for Date A Live across several Gamers locations."
   },
   {
-    "JapaneseTitle": "にじさんじ × アニメイト秋葉原本館 8月27日よりコラボショップ開催!",
-    "EnglishTitle": "Nijisanji x Animate Akihabara Main Store",
-    "Type": "Collaboration Shop",
-    "Location": "Animate Akihabara Main Store",
-    "Address": "4 Chome-3-2 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Akihabara+Main+Store",
-    "StartDate": "2025-08-27",
-    "EndDate": "2025-09-12",
-    "Series": "Nijisanji",
-    "KeyHighlights": [
-      "Collaboration merchandise",
-      "Exclusive displays"
-    ]
-  },
-  {
-    "JapaneseTitle": "銀魂 × THEキャラSHOP 秋葉原 9月3日より開催!",
-    "EnglishTitle": "Gintama x THE Chara SHOP Akihabara",
-    "Type": "Pop-up Shop",
-    "Location": "Akihabara",
-    "Address": "1 Chome-7-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Akihabara",
-    "StartDate": "2025-09-03",
-    "EndDate": "2025-09-18",
-    "Series": "Gintama",
-    "KeyHighlights": [
-      "Limited edition goods",
-      "Special visuals"
-    ]
-  },
-  {
-    "JapaneseTitle": "Re:ゼロから始める異世界生活 × アニメイトカフェ秋葉原2号店 9月7日より開催!",
-    "EnglishTitle": "Re:Zero -Starting Life in Another World- x Animate Cafe Akihabara 2nd",
+    "JapaneseTitle": "Tokyo 7th シスターズ × グラッテ in アニメイト 9月13日よりコラボ開催!",
+    "EnglishTitle": "Tokyo 7th Sisters x Gratte in Animate",
     "Type": "Collaboration Cafe",
-    "Location": "Animate Cafe Akihabara 2nd",
-    "Address": "3 Chome-7-12 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Cafe+Akihabara+2nd",
-    "StartDate": "2025-09-07",
-    "EndDate": "2025-09-25",
-    "Series": "Re:Zero",
-    "KeyHighlights": [
-      "Themed food & drinks",
-      "Exclusive character goods"
-    ]
-  },
-  {
-    "JapaneseTitle": "チェンソーマン × アニメイト秋葉原本館 9月12日よりコラボ開催!",
-    "EnglishTitle": "Chainsaw Man x Animate Akihabara Main Store",
-    "Type": "Collaboration Shop",
-    "Location": "Animate Akihabara Main Store",
-    "Address": "4 Chome-3-2 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Animate+Akihabara+Main+Store",
-    "StartDate": "2025-09-12",
+    "Location": "Akihabara",
+    "StartDate": "2025-09-13",
     "EndDate": "2025-09-28",
-    "Series": "Chainsaw Man",
-    "KeyHighlights": [
-      "Exclusive merchandise",
-      "Special displays"
-    ]
+    "Address": "アニメイト (池袋本店、秋葉原ANNEX、渋谷、名古屋、大阪日本橋)",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/tokyo-7th-sisters-gratte-animate2025/",
+    "ThumbnailURL": null,
+    "Series": "Tokyo 7th Sisters",
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=アニメイト池袋本店",
+    "KeyHighlights": "Collaboration cafe with Gratte in Animate stores."
   },
   {
-    "JapaneseTitle": "ガールズバンドクライ × カラオケの鉄人 秋葉原店 8月21日よりコラボ開催!",
-    "EnglishTitle": "Girls Band Cry x Karaoke no Tetsujin Akihabara",
-    "Type": "Collaboration Karaoke",
-    "Location": "Karaoke no Tetsujin Akihabara",
-    "Address": "1 Chome-15-9 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Karaoke+no+Tetsujin+Akihabara",
-    "StartDate": "2025-08-21",
-    "EndDate": "2025-09-10",
-    "Series": "Girls Band Cry",
-    "KeyHighlights": [
-      "Collaboration drinks",
-      "Limited edition coasters"
-    ]
+    "JapaneseTitle": "忘却バッテリー 旅ver.カフェ in ステラマップカフェ 8月14日より開催!",
+    "EnglishTitle": "Forgetful Battery Travel ver. Cafe in Stella Map Cafe",
+    "Type": "Collaboration Cafe",
+    "Location": "Akihabara",
+    "StartDate": "2025-08-14",
+    "EndDate": "2025-08-26",
+    "Address": "STELLAMAP Cafe (ステラマップカフェ)",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/boukyakubattery-stellamap-cafe-akihabara-2025-add-info/",
+    "ThumbnailURL": null,
+    "Series": "Forgetful Battery",
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=STELLAMAP Cafe",
+    "KeyHighlights": "Special travel version cafe for Forgetful Battery."
   },
   {
-    "JapaneseTitle": "ソードアート・オンライン × アトレ秋葉原 9月14日よりコラボ開催!",
-    "EnglishTitle": "Sword Art Online x Atre Akihabara",
-    "Type": "Collaboration Event",
-    "Location": "Atre Akihabara",
-    "Address": "1 Chome-17-6 Sotokanda, Chiyoda City, Tokyo 101-0021",
-    "GoogleMapsURL": "https://maps.google.com/?q=Atre+Akihabara",
-    "StartDate": "2025-09-14",
-    "EndDate": "2025-09-30",
-    "Series": "Sword Art Online",
-    "KeyHighlights": [
-      "Exclusive visuals",
-      "Special collaboration goods"
-    ]
+    "JapaneseTitle": "俺ガイル『総武高校奉仕部模擬店』in 東京/大阪 8月1日より開催!",
+    "EnglishTitle": "Oregairu 'Sobu High School Service Club Mock Shop' in Tokyo/Osaka",
+    "Type": "Pop-up Store",
+    "Location": "Akihabara",
+    "StartDate": "2025-08-01",
+    "EndDate": "2025-08-24",
+    "Address": "東京:ボークス秋葉原ホビー天国2 7F、大阪:ボークス大阪ショールーム 6F",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/oregairu-pop-up-store-hobbystock-mogiten-tokyo-osaka2025/",
+    "ThumbnailURL": null,
+    "Series": "Oregairu",
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=ボークス秋葉原ホビー天国2",
+    "KeyHighlights": "Pop-up shop recreating Sobu High School Service Club from Oregairu."
+  },
+  {
+    "JapaneseTitle": "アオのハコ × アニメイト10店舗 10月4日よりグラッテコラボ開催!",
+    "EnglishTitle": "Ao no Hako x Animate 10 stores Gratte collaboration",
+    "Type": "Collaboration Cafe",
+    "Location": "Akihabara",
+    "StartDate": "2025-10-04",
+    "EndDate": "2025-10-26",
+    "Address": "アニメイト池袋本店、秋葉原ANNEX、渋谷、吉祥寺パルコ、横浜ビブレ、仙台、名古屋、大阪日本橋、梅田、岡山 クッキー出張販売店 POP @P CAFE -KYOTO-/アニメイトカフェグラッテ+",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/aonohako-1st-anniversary-animate-gratte2025/",
+    "ThumbnailURL": null,
+    "Series": "Ao no Hako",
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=アニメイト池袋本店",
+    "KeyHighlights": "Gratte collaboration for Ao no Hako at 10 Animate locations."
+  },
+  {
+    "JapaneseTitle": "進撃の巨人 × 英国風パブHUB 8月5日よりコラボ開催!",
+    "EnglishTitle": "Attack on Titan x British-style pub HUB",
+    "Type": "Collaboration Cafe",
+    "Location": "Akihabara",
+    "StartDate": "2025-08-05",
+    "EndDate": "2025-08-31",
+    "Address": "HUB秋葉原店、HUB池袋東口店、HUBなんば戎橋店",
+    "CollaboURL": "https://collabo-cafe.com/events/collabo/shingeki-pub-hub2025/",
+    "ThumbnailURL": null,
+    "Series": "Attack on Titan",
+    "GoogleMapsURL": "https://www.google.com/maps/search/?api=1&query=HUB秋葉原店",
+    "KeyHighlights": "Attack on Titan themed event at British-style HUB pubs."
   }
 ]
