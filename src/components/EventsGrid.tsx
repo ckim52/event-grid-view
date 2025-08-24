@@ -101,7 +101,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
           </div>
 
           {/* Filters */}
-          <div className="max-w-md mx-auto flex items-center justify-center gap-4 flex-wrap">
+          <div className="max-w-md mx-auto flex items-center justify-center gap-4">
             <div className="flex items-center gap-2">
               <Select value={selectedLocation} onValueChange={setSelectedLocation}>
                 <SelectTrigger className="w-[160px]">
