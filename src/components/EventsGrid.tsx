@@ -89,7 +89,7 @@ export const EventsGrid = ({ events }: EventsGridProps) => {
         
         <div className="max-w-4xl mx-auto space-y-4">
           {/* Title Search */}
-          <div className="max-w-md mx-auto relative">
+          <div className="max-w-4xl mx-auto relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input
               type="text"
