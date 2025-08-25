@@ -9,7 +9,7 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-// Determine if we're in production (GitHub Pages) or development
+// Determine if we're in production (GitHub Pages) or development  
 const isProduction = import.meta.env.PROD;
 const basename = isProduction ? "/event-grid-view" : "";
 
