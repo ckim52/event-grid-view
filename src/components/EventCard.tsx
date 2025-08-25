@@ -96,6 +96,11 @@ export const EventCard = ({ event }: EventCardProps) => {
             >
               {event.Address}
             </a>
+            {event.KeyHighlights && (
+              <p className="text-xs text-muted-foreground mt-2 line-clamp-2">
+                {event.KeyHighlights}
+              </p>
+            )}
           </div>
 
           <div className="text-sm space-y-1">
