@@ -58,29 +58,29 @@ export const EventCard = ({ event }: EventCardProps) => {
           </div>
         </div>
         
-        <CardTitle className="line-clamp-2 text-lg leading-tight mb-2">
+        <CardTitle className="line-clamp-2 text-lg leading-tight mb-2 h-12">
           {event.EnglishTitle}
         </CardTitle>
         
         <CardDescription 
-          className="text-sm text-muted-foreground font-medium line-clamp-1 mb-3"
+          className="text-sm text-muted-foreground font-medium line-clamp-1 mb-3 h-5"
           title={event.JapaneseTitle}
         >
           {event.JapaneseTitle}
         </CardDescription>
         
-        {event.ThumbnailURL && (
-          <div className="w-full">
+        <div className="w-full h-40 mb-4">
+          {event.ThumbnailURL && (
             <img 
               src={event.ThumbnailURL} 
               alt={event.EnglishTitle}
-              className="w-full h-40 object-cover rounded-md"
+              className="w-full h-full object-cover rounded-md"
               onError={(e) => {
                 e.currentTarget.style.display = 'none';
               }}
             />
-          </div>
-        )}
+          )}
+        </div>
       </CardHeader>
 
       <CardContent className="flex-1 flex flex-col justify-between pt-0">
