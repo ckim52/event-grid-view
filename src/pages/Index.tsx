@@ -34,14 +34,14 @@ const Index = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 flex items-center justify-center">
-        <div className="text-white text-lg">Loading events...</div>
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-foreground text-lg">Loading events...</div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+    <div className="min-h-screen bg-background">
       <EventsGrid events={events} />
     </div>
   );
